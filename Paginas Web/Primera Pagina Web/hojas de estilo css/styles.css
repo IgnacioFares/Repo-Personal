@@ -100,3 +100,7 @@ font-size: 2.0rem;
 width: 40vw;
 }
 
+.contenedor-apartado{
+background-color: #FAFAFA;
+display: flex;
+}
