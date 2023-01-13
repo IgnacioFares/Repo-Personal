@@ -101,6 +101,31 @@ width: 40vw;
 }
 
 .contenedor-apartado{
-background-color: #FAFAFA;
 display: flex;
+justify-content: space-between;
+background-color: rgb(250, 250, 250);
+padding: 0 8%;
+}
+
+.apartado-1{
+margin-top: 3%;
+margin-left: 6%;
+}
+
+.apartado-1 button{
+position:absolute;
+margin-left: -4%;
+margin-top: -0.5%;
+background-color: #8B48BF;
+color: #FFFFFF;
+border-radius: 30px;
+border-style: none;
+padding: 0.6% 1.3%;
+}
+
+.apartado-1 p {
+margin-top: 2%;
+font-size: 0.8rem;
+width: 85%;
+color: #B3B2B7;
 }
