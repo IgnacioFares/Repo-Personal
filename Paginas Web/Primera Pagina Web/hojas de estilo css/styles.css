@@ -180,6 +180,8 @@ background-color: rgb(250, 250, 250);
 height: 350px;;
 }
 
+/* Apartado mejores del mes */
+
 .mejor-del-mes{
 display: flex;
 justify-content: center;
@@ -193,4 +195,69 @@ font-size: 1.2rem;
 display: flex;
 background-color:#FAFAFA;
 justify-content: space-between;
+text-align: center;
+padding-left: 10vw;
+padding-right:10vw;
+}
+
+.contenedor-mejores img{
+position: relative;
+top: -20%;
+}
+
+.contenedor-mejores h3{
+margin-top: -1em;
+}
+
+.contenedor-mejores p{
+margin-top: 1em; 
+width: 20vw;
+font-family:Be Vietnam;
+}
+
+/* boton more del body */
+
+.div-button-More{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 30vh;
+}
+
+#button-More{
+height: 50px;
+width: 8vw;
+border-radius: 50px;
+background: #8B48BF;
+cursor: pointer;
+border-style: none;
+color: #FAFAFA;
+font-size: 1rem;
+}
+
+/* Apartado mejores equipos del año */
+
+.contenedor-mejores-team{
+background-color:#8B48BF;
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 22vh;
+}
+
+.contenedor-mejores-team p {
+color: #FAFAFA;
+font-size: 2.6vw;
+width: 30vw;
+}
+
+.contenedor-mejores-team button{
+height: 7vh;
+width: 9vw;
+border-radius: 50px;
+background: #FFFFFF;
+color: #8B48BF;
+border-style: none;
+cursor: pointer;
+font-size: 1.2vw;
 }
