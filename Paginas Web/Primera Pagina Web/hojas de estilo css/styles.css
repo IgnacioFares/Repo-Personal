@@ -177,7 +177,6 @@ color: #B3B2B7;
 
 .fondo-apartado{
 background-color: rgb(250, 250, 250);
-height: 350px;;
 }
 
 /* Apartado mejores del mes */
@@ -202,7 +201,7 @@ padding-right:10vw;
 
 .contenedor-mejores img{
 position: relative;
-top: -20%;
+top: -18%;
 }
 
 .contenedor-mejores h3{
@@ -213,6 +212,7 @@ margin-top: -1em;
 margin-top: 1em; 
 width: 20vw;
 font-family:Be Vietnam;
+margin-bottom: 1em;
 }
 
 /* boton more del body */
@@ -260,4 +260,18 @@ color: #8B48BF;
 border-style: none;
 cursor: pointer;
 font-size: 1.2vw;
+}
+
+/* Estilos del footer */
+
+.fondo-footer{
+background-color: #1E1E26;
+height: 28vh;
+}
+
+.contenedor-iconos-footer{
+display: flex;
+flex-direction: column;
+justify-content: end;
+height: 28vh;
 }
