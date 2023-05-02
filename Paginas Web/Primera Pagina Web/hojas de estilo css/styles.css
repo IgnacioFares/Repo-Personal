@@ -278,6 +278,7 @@ height: 100%;
 width: 35%;
 box-sizing: border-box;
 padding: 3rem;
+cursor: pointer;
 }
 
 .contenedor-icono{
@@ -291,7 +292,7 @@ color: white;
 display: flex;
 flex-direction: column;
 justify-content: center;
-
+cursor: pointer;
 }
 
 .listafooter1 li{
@@ -307,9 +308,40 @@ color: #FAFAFA;
 display: flex;
 padding-left: 20%;
 padding-top: 2.5%;
+cursor: pointer;
 }
 
 .listafooter2 li{
 padding-top: 20%;
 }
 
+/* formulario del footer */
+
+.formulario{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 13%;
+}
+
+#formulario-correo{
+border-radius:30px ;
+border-style: none;
+padding: 4%;
+}
+
+#boton-form{
+color: white;
+background-color: #8B48BF;
+padding: 3%;
+border-style: none;
+border-radius: 20px;
+margin-left: 1rem;
+cursor: pointer;
+}
+
+.copyright{
+position: absolute;
+display: flex;
+margin-top: 10em;
+}
